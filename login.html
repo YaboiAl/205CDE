@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta naame="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel= "stylesheet" href="../static/form.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <fieldset class="sign">
+    <legend>Login</legend>
+    <div class="enterbox">
+        <p>{{msg}}</p>
+    <form action="http://localhost:8000" method="PUT">
+        <p>Email: <input type="text" name="email" id="email"></p>
+        <p>Password: <input type="password" name="password" id="password"></p>
+        
+        <p><input type="submit" value="Login" id="sub" ></p>
+    </div>
+    </form>
+    <div class="other">
+    <p>If you don't have account, click <a href="./register">Here</a> to creat a account</p>
+</div>
+    </fieldset>
+</body>
+</html>
