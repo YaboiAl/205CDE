@@ -105,7 +105,7 @@ def unchartedPage():
 def account():
     return render_template('account.html', title='Account')
 
-@app.route('/aboutus')
+@app.route('/about us.html')
 def aboutus():
     return render_template('about us.html', title='About Us')
 
